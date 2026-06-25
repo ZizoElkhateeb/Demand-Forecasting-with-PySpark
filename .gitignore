@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+myvenv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark / PySpark temp
+metastore_db/
+derby.log
+spark-warehouse/
+C:/temp/
+
+# MinIO Docker volume data
+minio_data/
+
+# App runtime cache (MinIO model downloads)
+.cache/
+
+# Generated Parquet outputs (reproducible from notebook)
+cleaned-demand-parquet/
+
+# Generated model artifacts in artifacts/ (reproducible from notebook)
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
